@@ -12,5 +12,10 @@ pipeline {
                 echo 'hi i want to test'
             }
         }
+        stage ('learning stage'){
+            steps {
+                echo 'need to connect'
+            }
+        }
     }
 }
