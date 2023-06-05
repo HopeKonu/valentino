@@ -14,7 +14,7 @@ pipeline {
         }
         stage ('learning stage'){
             steps {
-                echo 'need to connect'
+                input 'need to connect'
             }
         }
     }
