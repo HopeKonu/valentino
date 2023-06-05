@@ -8,9 +8,9 @@ pipeline {
             }
         }
         stage('new step'){
-            step (
-                echo "hi want to test this"
-            )
+            step {
+                echo "hi i want to test"
+            }
         }
     }
 }
