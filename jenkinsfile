@@ -11,11 +11,11 @@ pipeline {
             steps {
                 echo 'hi i want to test'
             }
-        }
-        stage ('learning stage'){
-            steps {
-                echo 'need to connect'
             }
+            stage ('learning stage'){
+                steps {
+                    echo 'need to connect'
+                }
         }stage ('webhook stage'){
             steps {
                 echo 'need to confirm stages'
