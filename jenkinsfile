@@ -16,6 +16,10 @@ pipeline {
             steps {
                 echo 'need to connect'
             }
+        }stage (webhook stage){
+            steps {
+                echo 'need to confirm stages'
+            }
         }
     }
 }
